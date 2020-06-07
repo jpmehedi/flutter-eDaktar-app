@@ -23,6 +23,7 @@ flutter:
 
   assets:
    - images/index.jpeg
+   - images/card.jpeg
 
 
   # fonts:
