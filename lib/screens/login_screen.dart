@@ -103,6 +103,9 @@ class _LoginScreenState extends State<LoginScreen> {
                       ],
                     ),
                   ),
+                  SizedBox(
+                    height: 20,
+                  ),
                   Text(
                     "Log In",
                     style: TextStyle(
@@ -121,7 +124,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           icon: Icon(Icons.phone),
                         ),
                         SizedBox(
-                          height: 10,
+                          height: 20,
                         ),
                         InputFeildBuilder(
                           hintText: 'Password',
